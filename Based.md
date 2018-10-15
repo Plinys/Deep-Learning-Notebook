@@ -13,7 +13,7 @@ w &= w - \alpha \frac{dJ(w,b)}{dw} \\\
 b &= b - \alpha \frac{dJ(w,b)}{db}
 \end{aligned}
 $$
-其中\\\ \alpha \\\ 为 learning rate
+其中\\( \alpha \\) 为 learning rate
 
 ## 反向传播算法
 - 反向传播从最终损失值开始，从最顶层反向作用到最底层，利用链式法则计算每个参数对损失值的贡献大小。
