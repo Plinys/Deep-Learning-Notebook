@@ -21,5 +21,5 @@ $$
 - 向网络中加入的非线性因素，加强网络的表示能力，解决下线性模型无法解决的问题
 ### 常用激活函数
 - ReLU function: $$ f(x) = max(x,0) $$
-- sigmoid function: $$ f(x) = \frac{1}{1+e^(-x)} $$
-- tanh function: $$ f(x) = \frac{1 - e^(-2x)}{1 + e^(-2x)} $$
+- sigmoid function: $$ f(x) = \frac{1}{1+e^{-x}} $$
+- tanh function: $$ f(x) = \frac{1 - e^{-2x}}{1 + e^{-2x}} $$
