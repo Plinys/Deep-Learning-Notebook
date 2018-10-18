@@ -19,3 +19,7 @@ $$
 - 反向传播从最终损失值开始，从最顶层反向作用到最底层，利用链式法则计算每个参数对损失值的贡献大小。
 ## 激活函数（activation function)
 - 向网络中加入的非线性因素，加强网络的表示能力，解决下线性模型无法解决的问题
+### 常用激活函数
+- ReLU function: $$ f(x) = max(x,0) $$
+- sigmoid function: $$ f(x) = \frac{1}{1+e^(-x)} $$
+- tanh function: $$ f(x) = \frac{1 - e^(-2x)}{1 + e^(-2x)} $$
