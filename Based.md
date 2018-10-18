@@ -1,6 +1,9 @@
 # 神经网络数学基础
 ## 损失函数（loss function)
 - 衡量预测值与期望值的误差
+### 交叉熵
+- 交叉熵刻画两个概率分布之间的距离
+- 给定两个概率分布p和q,通过q来表示p的交叉熵为：(深度学习中P代表正确答案，q代表预测值）$$ H(p,q) = -\sum_{x} p(x) log q(x) $$
 ## 成本函数（cost function）
 - 全部训练集损失函数的平均值
 ## 随机梯度下降（SGD:stochastic gradient descent)
