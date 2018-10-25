@@ -7,3 +7,4 @@ z = wx + b \\\
 a = \sigma (z) = \frac{1}{1 + e^{-z}} \\\
 L(a,y) = -ylog(a) + (1-y)log(1-a)
 \end{aligned}
+$$
