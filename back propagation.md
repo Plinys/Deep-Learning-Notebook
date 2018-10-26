@@ -18,7 +18,9 @@ dw &= \frac{\partial L(a,y)}{\partial w} \\\\
 $$
 其中
 $$
-\frac{\partial L(a,y)}{\partial a} = -\frac{y}{a} + frac{1-y}{1-a} \\\\
+\frac{\partial L(a,y)}{\partial a} = -\frac{y}{a} + frac{1-y}{1-a}
+$$
+$$
 \begin{aligned}
 \frac{\partial a}{\partial z} &= ( \frac{1}{1+e^{-z}})^' \\\\
 &= \frac{e^{-z}}{(1 + e^{-z})^2} \\\\
@@ -26,13 +28,15 @@ $$
 &= \frac{1}{1 + e^{-z}} - \frac{1}{(1+e^{-z})^2} \\\\
 &= a(1-a)
 \end{aligned}
+$$
+$$
 \frac{\partial z}{\partial w} = x
 $$
 所以
 $$
 \begin{aligned}
 dw& = \frac{\partial L(a,y)}{\partial w} \\\\
-& = \frac{\partial L(a,y)}{\partial a} \frac{\partial a}{\partial z} \frac{\partial z}{\partial w}
+& = \frac{\partial L(a,y)}{\partial a} \frac{\partial a}{\partial z} \frac{\partial z}{\partial w} \\\\
 & = (-\frac{y}{a} + \frac{1-y}{1-a}） a(1 - a) x \\\\
 & = ( -y(1-a) + a(1-y) ) x \\\\
 & = (-y + ya -ya + a) x \\\\
