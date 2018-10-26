@@ -22,10 +22,10 @@ $$
 $$
 $$
 \begin{aligned}
-\frac{\partial a}{\partial z} &= ( \frac{1}{1+e^{-z}})^' \\\\
-&= \frac{e^{-z}}{(1 + e^{-z})^2} \\\\
-&= \frac{1+e^{-z}-1}{(1 + e^{-z})^2} \\\\
-&= \frac{1}{1 + e^{-z}} - \frac{1}{(1+e^{-z})^2} \\\\
+\frac{\partial a}{\partial z} &= ( \frac{1}{1+e^{-z}})^{'} \\\\
+&= \frac{e^{-z}}{ (1 + e^{-z})^2 } \\\\
+&= \frac{1+e^{-z}-1}{( 1 + e^{-z})^2 } \\\\
+&= \frac{1}{1 + e^{-z}} - \frac{1}{ (1+e^{-z})^2 } \\\\
 &= a(1-a)
 \end{aligned}
 $$
