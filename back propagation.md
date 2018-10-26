@@ -38,3 +38,4 @@ dw& = \frac{\partial L(a,y)}{\partial w} \\\\
 & = (-y + ya -ya + a) x \\\\
 & = (a - y) x
 \end{aligned}
+$$
