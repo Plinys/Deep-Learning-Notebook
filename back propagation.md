@@ -18,7 +18,7 @@ dw &= \frac{\partial L(a,y)}{\partial w} \\\\
 $$
 其中
 $$
-\frac{\partial L(a,y)}{\partial a} = -\frac{y}{a} + frac{1-y}{1-a}
+\frac{\partial L(a,y)}{\partial a} = -\frac{y}{a} + \frac{1-y}{1-a}
 $$
 $$
 \begin{aligned}
